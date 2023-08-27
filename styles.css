@@ -16,6 +16,10 @@ body {
 h1 {
   color: rgb(22, 22, 66);
 }
+.fa-brands{
+  color: rgb(233, 226, 226);
+  font-weight: bolder;
+}
 
 form {
   height: 900px;
@@ -32,8 +36,7 @@ form {
 .input {
   display: flex;
   flex-direction: column;
-
-  gap: 5px;
+  gap: 10px;
 }
 .input > input {
   border-radius: 3px;
@@ -48,14 +51,12 @@ form {
   border-radius: 3px;
 }
 .radiobtn {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 .check {
   display: flex;
   flex-direction: column;
-}
-.check > input {
-  vertical-align: left;
 }
 
 #comment {
@@ -73,7 +74,8 @@ button {
   color: white;
   font-weight: bold;
   height: 50px;
-  width: 200px;
+  width: 500px;
   border: none;
   border-radius: 50px;
+  cursor: pointer;
 }
