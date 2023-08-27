@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  
+  /* box-sizing: border-box; */
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form{
+    height: 900px;
+    width: 550px;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: rgba(92, 55, 55, 0.916);
+    color: white;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 5px;
+}
+.input>input{
+    border-radius: 3px;
+    height: 30px;
+    border: none;
+    padding: 5px;
+    
+}
+#dropdown{
+    width: 550px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+}
+.radiobtn{
+
+    display: block;
+    
+}
+.check{
+    display: flex;
+    flex-direction: column;
+
+}
+.check>input{
+    vertical-align: left;
+}
+
+.cmnt>input{
+    height: 100px;
+    width: 550px;
+    border-radius: 3px;
+    border: none;
+  
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+button{
+    background-color: rgb(148, 202, 67);
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+
+    
+    
+}
