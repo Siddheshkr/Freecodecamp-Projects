@@ -2,6 +2,15 @@
 
 * {
   font-family: "Poppins", sans-serif;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+
 }
 body {
   background: #8e9eab;
